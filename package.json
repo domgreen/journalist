@@ -1,0 +1,19 @@
+{
+    "name": "journalist"
+  , "version": "0.0.1"
+  , "description": "Journalist is a simple event store for nodejs."
+  , "keywords": ["journalist", "event store", "event", "store", "ddd", "cqrs", "events", "view model", "view", "model"]
+  , "author": "Dominic Green <dominicgreen1@gmail.com>"
+  , "repository": { "type": "git", "url": "git://github.com/domgreen/journalist.git" }
+  , "main": "./index"
+  , "dependencies": {
+      "redis": "*"
+    , "colors": "*"
+    , "eventemitter2": "*"
+    , "mongodb": "1.0.2"
+  }
+  , "devDependencies":{
+       "mocha": "*"
+     , "chai": "*"
+  }
+}
