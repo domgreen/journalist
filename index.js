@@ -1,1 +1,1 @@
-module.exports = require('./lib/redisSubsciber');
+module.exports = require('./lib/redisSubscriber');
